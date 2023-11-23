@@ -7,6 +7,8 @@ import axios from "axios";
 import application from "./resources/configs/application";
 import { BrowserRouter } from "react-router-dom";
 import "./resources/css/index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
 
 const store = configureAppStore(api);
 axios.defaults.baseURL = application.backend;

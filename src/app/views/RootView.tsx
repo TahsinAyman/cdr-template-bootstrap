@@ -18,9 +18,6 @@ export default function Root() {
           Edit <code>src/app/views/RootView.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-
-      </p>
     </>
   );
 }
